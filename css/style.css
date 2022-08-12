@@ -35,7 +35,7 @@ button {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -672,22 +672,19 @@ button {
   gap: 30px;
 }
 
-.product-item {
+.product-link {
+  display: block;
   background: #ffffff;
   border: 1px solid #eeeeee;
+  max-width: 370px;
+  text-decoration: none;
   transition: box-shadow var(--transition);
 }
 
-.product-item:hover,
-.product-item:focus {
+.product-link:hover,
+.product-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.product-link {
-  display: block;
-  max-width: 370px;
-  text-decoration: none;
 }
 
 .div-img-product {
