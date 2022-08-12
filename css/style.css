@@ -794,6 +794,16 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.close-black-icon {
+  fill: var(--primary-text-color);
+  transition: fill var(--transition);
+}
+
+.modal-close-btn:focus .close-black-icon,
+.modal-close-btn:hover .close-black-icon {
+  fill: var(--button-color);
+}
+
 /* ----MODAL-WINDOW----- */
 /* -----MODAL-FORM -----*/
 .modal-form {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework3</title>
+    <title>Homework6</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -416,7 +416,8 @@
             <input
               id="email-distribution"
               class="input-email-distribution"
-              type="mail"
+              type="email"
+              name="email"
               placeholder="E-mail"
               required
             />
@@ -430,7 +431,8 @@
         </form>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <!-- MODAL-WINDOW -->
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="close-black-icon" width="14" height="14">
@@ -462,7 +464,7 @@
             <span class="modal-form-label-text">Телефон</span>
             <span class="modal-form-input-wrapper">
               <input
-                type="tell"
+                type="tel"
                 name="phone-number"
                 class="modal-form-input"
                 required
@@ -478,7 +480,7 @@
           <label class="modal-form-field">
             <span class="modal-form-label-text">Почта</span>
             <span class="modal-form-input-wrapper">
-              <input type="mail" name="email" class="modal-form-input" required />
+              <input type="email" name="email" class="modal-form-input" required />
 
               <svg class="modal-form-input-svg" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
@@ -497,10 +499,10 @@
 
           <input
             id="user-policy"
+            name="user-policy"
             type="checkbox"
             class="modal-form-check visually-hidden"
             required
-            name="user-policy"
           />
           <label for="user-policy" class="modal-form-check-desc">
             Соглашаюсь с рассылкой и принимаю&nbsp;
